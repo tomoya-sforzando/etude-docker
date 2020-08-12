@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  docker-python:
+    build:
+      context: .
+    volumes:
+      - .:/usr/src/app
